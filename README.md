@@ -1,10 +1,10 @@
-# 🧠 MoodMap - Your Personal Mood & Wellness Tracker
+# MoodMap - Your Personal Mood & Wellness Tracker
 
 **Track Your Mood, Elevate Your Mind**
 
 MoodMap is a comprehensive mood tracking and wellness application that helps users monitor their emotional well-being while discovering personalized wellness activities, nutrition tips, and nearby therapeutic locations.
 
-## 🌟 Features
+## Features
 
 - **Mood Tracking** - Log your daily moods and track emotional patterns
 - **Analytics Dashboard** - Visualize mood trends with interactive charts and insights
@@ -16,14 +16,14 @@ MoodMap is a comprehensive mood tracking and wellness application that helps use
 - **User Profile** - Customize your profile and preferences
 - **Data Export** - Export your mood data for personal records
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Backend:** PHP
 - **Frontend:** HTML, CSS, JavaScript
 - **Database:** MySQL
 - **Server:** Apache (XAMPP)
 
-## 📋 Project Structure
+## Project Structure
 
 ```
 MoodMap/
@@ -52,7 +52,7 @@ MoodMap/
 └── PROJECT_DESCRIPTION.html
 ```
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - XAMPP (or similar local server)
@@ -80,7 +80,7 @@ MoodMap/
 4. **Create Config File** (if not exists)
    - Update `includes/config.php` with your database credentials
 
-## 📖 Usage
+## Usage
 
 1. **Create Account** - Sign up with your email
 2. **Verify OTP** - Enter OTP sent to your email
@@ -89,7 +89,7 @@ MoodMap/
 5. **Explore Wellness** - Discover activities, nutrition tips, and nearby places
 6. **Manage Profile** - Update your profile and preferences
 
-## 📊 Key Pages
+## Key Pages
 
 - **Dashboard** - Central hub for all features
 - **Mood Log** - Add new mood entries
@@ -100,7 +100,7 @@ MoodMap/
 - **Nearby Places** - Find therapeutic locations
 - **Profile** - User settings and information
 
-## 🔒 Security
+## Security
 
 - Password hashing for user accounts
 - OTP verification for email authenticity
@@ -108,7 +108,7 @@ MoodMap/
 - Protected API endpoints
 - XSS and SQL injection protection
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please:
 1. Fork the repository
@@ -117,28 +117,18 @@ Contributions are welcome! Please:
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+## Author
 
-Created with ❤️ for better mental health and wellness
+Created for better mental health and wellness
 
-## 📧 Contact & Support
+## Contact & Support
 
 For questions, suggestions, or bug reports, please open an issue on GitHub.
 
-## 🎯 Future Enhancements
-
-- [ ] Mobile app version
-- [ ] Wearable device integration
-- [ ] AI-powered mood predictions
-- [ ] Social features and community support
-- [ ] Integration with fitness trackers
-- [ ] Advanced analytics and reports
-- [ ] Multi-language support
-
 ---
 
-**Where Emotions Meet Wellness** 🌈
+**Where Emotions Meet Wellness**
