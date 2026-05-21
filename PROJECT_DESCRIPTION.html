@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodMap - Project Description</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 30px;
+            background: white;
+        }
+        h1 {
+            text-align: center;
+            color: #6366F1;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #6366F1;
+            border-bottom: 3px solid #6366F1;
+            padding-bottom: 8px;
+            margin: 30px 0 15px 0;
+            font-size: 1.4em;
+        }
+        h3 {
+            color: #8B5CF6;
+            margin: 20px 0 10px 0;
+        }
+        p { margin-bottom: 12px; text-align: justify; }
+        ul, ol { margin: 10px 0 20px 25px; }
+        li { margin-bottom: 8px; }
+        .highlight {
+            background: linear-gradient(135deg, #6366F1, #8B5CF6);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        .highlight h3 { color: white; margin-top: 0; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background: #6366F1;
+            color: white;
+        }
+        tr:nth-child(even) { background: #f9f9ff; }
+        .faq-q {
+            font-weight: bold;
+            color: #6366F1;
+            margin-top: 15px;
+        }
+        .faq-a { margin-bottom: 15px; padding-left: 15px; border-left: 3px solid #e0e0e0; }
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin: 15px 0;
+        }
+        .tech-item {
+            background: #f5f5ff;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #6366F1;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            color: #888;
+        }
+        @media print {
+            body { padding: 20px; }
+            .highlight { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            th { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        }
+    </style>
+</head>
+<body>
+
+<h1>✨ MoodMap</h1>
+<p class="subtitle">Mood-Based Place & Wellness Recommendation System</p>
+
+<div class="highlight">
+    <h3>🎯 One-Line Summary</h3>
+    <p style="margin:0; font-size: 1.1em;">MoodMap is a web application that helps users track their daily emotions and provides personalized recommendations for places to visit and wellness activities based on their current mood.</p>
+</div>
+
+<h2>📋 Project Overview</h2>
+<p><strong>MoodMap</strong> is an innovative emotional wellness platform designed to bridge the gap between how people feel and what they can do to feel better. In today's fast-paced world, mental health awareness is crucial, and MoodMap provides a simple yet powerful tool for individuals to:</p>
+<ul>
+    <li>Track and log their daily moods with intensity levels</li>
+    <li>Discover nearby places (cafes, parks, gyms, etc.) that match their emotional state</li>
+    <li>Access personalized wellness tips and activities</li>
+    <li>Visualize their emotional patterns over time through analytics</li>
+    <li>Build healthy habits through streak-based motivation</li>
+</ul>
+
+<h2>❓ Problem Statement</h2>
+<p>Many people struggle with:</p>
+<ol>
+    <li><strong>Emotional Awareness:</strong> Not understanding or acknowledging their feelings</li>
+    <li><strong>Decision Paralysis:</strong> Not knowing what to do when feeling down, anxious, or stressed</li>
+    <li><strong>Lack of Resources:</strong> No easy way to find mood-appropriate activities or places</li>
+    <li><strong>Mental Health Tracking:</strong> No simple tool to monitor emotional patterns</li>
+</ol>
+<p><strong>MoodMap solves these problems</strong> by providing an intuitive platform that makes emotional wellness accessible and actionable.</p>
+
+<h2>💡 Key Features</h2>
+
+<table>
+    <tr>
+        <th>Feature</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>🎭 Mood Tracking</td>
+        <td>Log 5 different moods (Happy, Sad, Anxious, Calm, Energetic) with 1-5 intensity scale and optional notes</td>
+    </tr>
+    <tr>
+        <td>📍 Smart Places</td>
+        <td>Get recommendations for nearby places (cafes, parks, gyms, temples, etc.) based on your current mood</td>
+    </tr>
+    <tr>
+        <td>💡 Wellness Tips</td>
+        <td>Personalized activities and tips tailored to each mood type</td>
+    </tr>
+    <tr>
+        <td>🧘 Quick Activities</td>
+        <td>Built-in breathing exercises, hydration reminders, and fresh air prompts</td>
+    </tr>
+    <tr>
+        <td>📊 Analytics Dashboard</td>
+        <td>Visual charts showing mood distribution, weekly trends, and insights</td>
+    </tr>
+    <tr>
+        <td>🔥 Streak System</td>
+        <td>Gamified motivation with daily logging streaks</td>
+    </tr>
+    <tr>
+        <td>📅 Week View</td>
+        <td>See all moods logged in the past 7 days at a glance</td>
+    </tr>
+    <tr>
+        <td>👤 User Profiles</td>
+        <td>Personal profiles with mood journey statistics</td>
+    </tr>
+</table>
+
+<h2>🛠️ Technologies Used</h2>
+
+<div class="tech-grid">
+    <div class="tech-item">
+        <strong>Frontend</strong><br>
+        HTML5, CSS3, JavaScript<br>
+        Tailwind CSS (CDN)<br>
+        Chart.js for analytics
+    </div>
+    <div class="tech-item">
+        <strong>Backend</strong><br>
+        PHP 7.4+<br>
+        PDO for database<br>
+        Session management
+    </div>
+    <div class="tech-item">
+        <strong>Database</strong><br>
+        MySQL<br>
+        Relational schema<br>
+        Indexed queries
+    </div>
+    <div class="tech-item">
+        <strong>Server</strong><br>
+        Apache (XAMPP)<br>
+        localhost deployment<br>
+        RESTful architecture
+    </div>
+</div>
+
+<h3>Design Features:</h3>
+<ul>
+    <li><strong>Glassmorphism UI:</strong> Modern glass-card design with backdrop blur effects</li>
+    <li><strong>Animated Backgrounds:</strong> Mood-based gradient backgrounds that change with user's mood</li>
+    <li><strong>Floating Particles:</strong> Subtle particle animations for visual appeal</li>
+    <li><strong>Responsive Design:</strong> Works on desktop, tablet, and mobile devices</li>
+    <li><strong>Micro-interactions:</strong> Smooth hover effects, button animations, and transitions</li>
+</ul>
+
+<h2>🔄 How It Works</h2>
+
+<ol>
+    <li><strong>User Registration:</strong> Create account with email and password</li>
+    <li><strong>Log Mood:</strong> Select one of 5 moods and set intensity (1-5)</li>
+    <li><strong>Get Recommendations:</strong>
+        <ul>
+            <li>Mood-matched places appear automatically</li>
+            <li>Wellness tips update based on current mood</li>
+        </ul>
+    </li>
+    <li><strong>Explore Places:</strong> Browse places by city and area, get directions</li>
+    <li><strong>Track Progress:</strong> View analytics, maintain streaks, see patterns</li>
+</ol>
+
+<h2>📊 Database Schema</h2>
+<table>
+    <tr>
+        <th>Table</th>
+        <th>Purpose</th>
+        <th>Key Fields</th>
+    </tr>
+    <tr>
+        <td>users</td>
+        <td>User accounts & auth</td>
+        <td>id, name, email, password, streak data</td>
+    </tr>
+    <tr>
+        <td>moods</td>
+        <td>Mood log entries</td>
+        <td>user_id, mood_type, intensity, notes, timestamp</td>
+    </tr>
+    <tr>
+        <td>saved_places</td>
+        <td>User's favorite places</td>
+        <td>user_id, place_name, location, mood_tag</td>
+    </tr>
+</table>
+
+<h2>🚀 Future Scope</h2>
+<ul>
+    <li><strong>AI Integration:</strong> Machine learning to predict mood patterns and suggest preventive actions</li>
+    <li><strong>Social Features:</strong> Connect with friends, share mood journeys</li>
+    <li><strong>Wearable Integration:</strong> Sync with fitness bands for automatic mood detection via heart rate</li>
+    <li><strong>Google Places API:</strong> Real-time place recommendations with reviews and ratings</li>
+    <li><strong>Push Notifications:</strong> Mood logging reminders and wellness tips</li>
+    <li><strong>Mood Journal:</strong> Detailed journaling feature with photo attachments</li>
+    <li><strong>Therapist Connect:</strong> Option to share reports with mental health professionals</li>
+</ul>
+
+<h2>❓ Frequently Asked Questions (For Judges/Visitors)</h2>
+
+<p class="faq-q">Q1: What is MoodMap?</p>
+<p class="faq-a">MoodMap is a mood tracking and wellness recommendation web application. Users log how they're feeling, and the app suggests places to visit and activities to do based on their current emotional state.</p>
+
+<p class="faq-q">Q2: Why is this project useful?</p>
+<p class="faq-a">Mental health awareness is crucial today. Many people don't know what to do when they feel anxious, sad, or stressed. MoodMap bridges this gap by providing actionable recommendations - whether it's visiting a calm park when anxious or an energetic gym when feeling low.</p>
+
+<p class="faq-q">Q3: What technologies did you use?</p>
+<p class="faq-a">Frontend: HTML, CSS, JavaScript with Tailwind CSS for styling. Backend: PHP with MySQL database. Server: Apache via XAMPP. We also used Chart.js for analytics visualization.</p>
+
+<p class="faq-q">Q4: How does the mood-place matching work?</p>
+<p class="faq-a">Each mood type has associated place categories. For example, "Anxious" mood suggests calming places like parks, temples, and libraries. "Happy" mood suggests social places like cafes, restaurants, and malls. The algorithm matches mood → place type → available places in the user's selected area.</p>
+
+<p class="faq-q">Q5: Is this using real location data?</p>
+<p class="faq-a">Currently, we have pre-loaded place data for 10 major Indian cities with multiple areas each. In production, this can be integrated with Google Places API for real-time data.</p>
+
+<p class="faq-q">Q6: How is user data secured?</p>
+<p class="faq-a">Passwords are hashed using PHP's password_hash() with bcrypt algorithm. All database queries use prepared statements to prevent SQL injection. Sessions are secured with httpOnly cookies.</p>
+
+<p class="faq-q">Q7: What makes this project unique?</p>
+<p class="faq-a">Unlike simple mood trackers, MoodMap is action-oriented. It doesn't just track moods - it helps users DO something about how they feel. The combination of mood tracking + place recommendations + wellness tips in one platform is unique.</p>
+
+<p class="faq-q">Q8: Can this be deployed commercially?</p>
+<p class="faq-a">Yes! With Google Places API integration for real-time places, cloud hosting, and a mobile app version, MoodMap can become a full commercial product. Future monetization could include premium features, therapist partnerships, and wellness brand collaborations.</p>
+
+<p class="faq-q">Q9: What challenges did you face?</p>
+<p class="faq-a">Main challenges included: (1) Designing an intuitive mood selection UI, (2) Creating meaningful mood-to-place mappings, (3) Building responsive animations that work smoothly, and (4) Structuring the database for efficient mood analytics queries.</p>
+
+<p class="faq-q">Q10: What did you learn from this project?</p>
+<p class="faq-a">Full-stack web development with PHP and MySQL, modern CSS techniques like glassmorphism and animations, database design for analytics, user authentication best practices, and the importance of UX design in wellness applications.</p>
+
+<div class="highlight" style="margin-top: 40px;">
+    <h3>🌐 Demo Information</h3>
+    <p><strong>URL:</strong> http://localhost/MoodMap/</p>
+    <p><strong>Demo Account:</strong> test@moodmap.com / test123</p>
+    <p style="margin:0;"><strong>Or:</strong> Create a new account (auto-verified for demo)</p>
+</div>
+
+<div class="footer">
+    <p><strong>MoodMap</strong> - College Exhibition Project 2026</p>
+    <p>Made with ❤️ for emotional wellness</p>
+</div>
+
+</body>
+</html>

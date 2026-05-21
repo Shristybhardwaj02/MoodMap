@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1"/>
+      <stop offset="100%" style="stop-color:#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Map Pin with Mood Face -->
+  <g transform="translate(10, 5)">
+    <!-- Pin Body -->
+    <path d="M25 0C11.2 0 0 11.2 0 25c0 17.5 25 35 25 35s25-17.5 25-35C50 11.2 38.8 0 25 0z" fill="url(#logoGradient)"/>
+    
+    <!-- Happy Face Inside Pin -->
+    <circle cx="25" cy="22" r="15" fill="white"/>
+    
+    <!-- Eyes -->
+    <circle cx="19" cy="19" r="2.5" fill="#6366F1"/>
+    <circle cx="31" cy="19" r="2.5" fill="#6366F1"/>
+    
+    <!-- Smile -->
+    <path d="M17 26 Q25 34 33 26" stroke="#6366F1" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Text: MoodMap -->
+  <text x="70" y="38" font-family="Poppins, Arial, sans-serif" font-size="28" font-weight="700">
+    <tspan fill="#6366F1">Mood</tspan><tspan fill="#8B5CF6">Map</tspan>
+  </text>
+</svg>

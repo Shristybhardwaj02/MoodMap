@@ -1,0 +1,30 @@
+# Sensitive configuration files
+includes/config.php
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PHP
+vendor/
+composer.lock
+
+# Node (if applicable)
+node_modules/
+npm-debug.log
+
+# Environment
+.env
+.env.local
+
+# Temporary files
+*.log
+*.tmp
